@@ -54,5 +54,4 @@ AWS Load Balancer Controller) is provisioned entirely with Terraform — see the
 ## Attribution
 
 Service source adapted from the [OpenTelemetry Demo](https://github.com/open-telemetry/opentelemetry-demo)
-(Apache-2.0). Dockerfile, CI pipeline, Kubernetes manifests, and all infrastructure: my own work.# product-catalog-microservice
-Go microservice with end-to-end CI/CD - GitHub Actions (build, test, lint, Docker build/push) + GitOps manifest update, deployed to AWS EKS via Argo CD
+(Apache-2.0). Dockerfile, CI pipeline, Kubernetes manifests, and all infrastructure: my own work.
