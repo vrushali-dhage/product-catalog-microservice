@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: product-catalog
-          image: vrushalidevops/product-catalog:latest
+          image: vrushalidevops/product-catalog:29770560756
           ports:
             - containerPort: 3550
           env:
