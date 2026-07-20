@@ -1,0 +1,24 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: product-catalog
+  labels:
+    app: product-catalog
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: product-catalog
+  template:
+    metadata:
+      labels:
+        app: product-catalog
+    spec:
+      containers:
+        - name: product-catalog
+          image: vrushalidevops/product-catalog:latest
+          ports:
+            - containerPort: 3550
+          env:
+            - name: PRODUCT_CATALOG_SERVICE_PORT
+              value: "3550"
